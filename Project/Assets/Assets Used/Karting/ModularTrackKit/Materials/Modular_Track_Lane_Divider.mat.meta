@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7b5f0a7a707e04e939eb8c5dee8e084c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150956
+  packageName: Karting Microgame | URP
+  packageVersion: 4.1.0
+  assetPath: Assets/Karting/ModularTrackKit/Materials/Modular_Track_Lane_Divider.mat
+  uploadId: 613807

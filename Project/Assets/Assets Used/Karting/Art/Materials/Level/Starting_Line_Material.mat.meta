@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3869da5c1b38e487aaa31c9021e4134f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150956
+  packageName: Karting Microgame | URP
+  packageVersion: 4.1.0
+  assetPath: Assets/Karting/Art/Materials/Level/Starting_Line_Material.mat
+  uploadId: 613807

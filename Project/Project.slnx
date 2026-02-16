@@ -1,0 +1,4 @@
+﻿<Solution>
+  <Project Path="Ar.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+</Solution>

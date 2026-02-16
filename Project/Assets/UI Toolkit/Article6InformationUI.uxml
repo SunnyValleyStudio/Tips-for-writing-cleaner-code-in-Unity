@@ -1,0 +1,30 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/style.uss?fileID=7433441132597879392&amp;guid=a92f88e95d0577e4f868b682dd7e3a1e&amp;type=3#style"/>
+    <engine:VisualElement name="InfoContainer" class="container" style="flex-grow: 1; align-self: flex-end; width: 400px; left: auto; right: 10px; top: 10px; height: 630px; background-image: url(&quot;project://database/Assets/3DGamekit/Sprites/UI/OptionsMenu9Slice.png?fileID=1641730527&amp;guid=69ca94b6c89927741a79942eceb12ce9&amp;type=3#OptionsMenu9Slice_2&quot;); flex-direction: column; justify-content: flex-start; align-items: stretch; position: absolute; -unity-background-image-tint-color: rgba(255, 255, 255, 0.88); align-content: stretch;">
+        <engine:VisualElement name="ContentContainer" style="flex-grow: 1; margin-top: 30px; margin-right: 30px; margin-bottom: 30px; margin-left: 30px; align-items: stretch; flex-direction: column; justify-content: flex-start;">
+            <engine:VisualElement name="DescriptionCOntainer" style="flex-grow: 1; height: 248px; width: 340px;">
+                <engine:Label text="Information:" name="HeaderLaber" class="header" style="background-color: rgba(0, 0, 0, 0.24);"/>
+                <engine:Label text="In Article 6 we’ll extend the project with a new interaction system focused on &lt;b&gt;doors&lt;/b&gt;. We’ll start with a simple &lt;b&gt;IInteractable&lt;/b&gt;-based open/close mechanic, then add a &lt;b&gt;destructible door&lt;/b&gt; using the existing &lt;b&gt;IDamageable&lt;/b&gt; + &lt;b&gt;Health&lt;/b&gt; setup. Along the way we’ll introduce &lt;b&gt;DRY&lt;/b&gt; and learn how to avoid duplicating “death” event checks across feedback scripts." name="InformationLabel" class="inforText" style="flex-wrap: wrap; text-overflow: clip; -unity-text-align: lower-left; white-space: pre-wrap;"/>
+            </engine:VisualElement>
+            <engine:VisualElement name="ControllsContainer" style="flex-grow: 1;">
+                <engine:Label text="Controls:" name="HeaderLaber" class="header" style="background-color: rgba(0, 0, 0, 0.24);"/>
+                <engine:VisualElement name="WSAD" style="flex-grow: 0; flex-direction: row; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; height: 80px;">
+                    <engine:VisualElement style="flex-grow: 0; flex-direction: row; background-image: url(&quot;project://database/Assets/Assets%20Used/CustomMade/wsad.png?fileID=2800000&amp;guid=2a99931910de7864e913a46b8e4ab8d2&amp;type=3#wsad&quot;); -unity-background-scale-mode: scale-to-fit; width: 80px; height: auto;"/>
+                    <engine:Label text="Movement" name="InformationLabel" class="controllsText" style="flex-wrap: wrap; text-overflow: clip; -unity-text-align: middle-left; white-space: pre-wrap; flex-grow: 1; height: auto;"/>
+                </engine:VisualElement>
+                <engine:VisualElement name="JUMP" style="flex-grow: 0; flex-direction: row; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; height: 80px;">
+                    <engine:VisualElement style="flex-grow: 0; flex-direction: row; background-image: url(&quot;project://database/Assets/Assets%20Used/CustomMade/space_key.png?fileID=2800000&amp;guid=7a7c2b4d081294247abacea601242e7a&amp;type=3#space_key&quot;); -unity-background-scale-mode: scale-to-fit; width: 80px; height: auto;"/>
+                    <engine:Label text="Jumping" name="InformationLabel" class="controllsText" style="flex-wrap: wrap; text-overflow: clip; -unity-text-align: middle-left; white-space: pre-wrap; flex-grow: 1; height: auto;"/>
+                </engine:VisualElement>
+                <engine:VisualElement name="Interact" style="flex-grow: 0; flex-direction: row; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; height: 80px;">
+                    <engine:VisualElement style="flex-grow: 0; flex-direction: row; background-image: url(&quot;project://database/Assets/Assets%20Used/CustomMade/LMB.png?fileID=2800000&amp;guid=e746565ac15d2114a83b1d44e3a83397&amp;type=3#LMB&quot;); -unity-background-scale-mode: scale-to-fit; width: 80px; height: auto;"/>
+                    <engine:Label text="Interact" name="InformationLabel" class="controllsText" style="flex-wrap: wrap; text-overflow: clip; -unity-text-align: middle-left; white-space: pre-wrap; flex-grow: 1; height: auto;"/>
+                </engine:VisualElement>
+                <engine:VisualElement name="DrawWeapon" style="flex-grow: 0; flex-direction: row; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; height: 80px; align-items: center;">
+                    <engine:VisualElement style="flex-grow: 0; flex-direction: row; background-image: url(&quot;project://database/Assets/Assets%20Used/CustomMade/letter_Z.png?fileID=2800000&amp;guid=c4778ad9f0443994cae0b09343fdb0b4&amp;type=3#letter_Z&quot;); -unity-background-scale-mode: scale-to-fit; width: 80px; height: 30px;"/>
+                    <engine:Label text="Draw/Hide Weapon" name="InformationLabel" class="controllsText" style="flex-wrap: wrap; text-overflow: clip; -unity-text-align: middle-left; white-space: pre-wrap; flex-grow: 1; height: auto;"/>
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

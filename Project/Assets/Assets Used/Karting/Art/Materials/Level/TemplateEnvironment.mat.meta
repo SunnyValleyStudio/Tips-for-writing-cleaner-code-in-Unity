@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d11179e416c9b394c8176d36a0dcae52
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150956
+  packageName: Karting Microgame | URP
+  packageVersion: 4.1.0
+  assetPath: Assets/Karting/Art/Materials/Level/TemplateEnvironment.mat
+  uploadId: 613807
