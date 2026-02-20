@@ -62,7 +62,7 @@ namespace Tips.Part_6_Start
             if (m_currentTime >= m_detectionDelay)
             {
                 m_currentTime = -1;
-                Dictionary<Collider, List<IDamagable>> result = m_hitDetector.PerformDetection();
+                Dictionary<Collider, List<IDamageable>> result = m_hitDetector.PerformDetection();
                 foreach (var collider in result.Keys)
                 {
                     foreach (var damageable in result[collider])

@@ -6,7 +6,7 @@ namespace Tips.Part_6_End
     /// IDamagable implementation that plays an audio clip 
     /// when the object takes damage.
     /// </summary>
-    public class PlayAudioGetHitEffect : MonoBehaviour, IDamagable
+    public class PlayAudioGetHitEffect : MonoBehaviour, IDamageable
     {
         [SerializeField]
         private AudioSource m_audioSource;

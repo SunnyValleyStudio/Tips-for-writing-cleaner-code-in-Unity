@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 3072
     height: 1636.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 168}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 27
+  controlID: 146
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 168}
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 52
+  controlID: 117
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,8 +250,8 @@ MonoBehaviour:
     y: 0
     width: 573.59985
     height: 467.2
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -328,8 +328,8 @@ MonoBehaviour:
     y: 0
     width: 649.6001
     height: 1580.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -1667,7 +1667,7 @@ MonoBehaviour:
     m_DynamicPanelBehavior: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 91244
+  m_LastSelectedObjectID: 51966
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1815,12 +1815,14 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 91244
+      - m_Data: 48692
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -95164
-      - m_Data: -90432
+      - m_Data: -14334
+      - m_Data: -10426
+      - m_Data: -4530
+      - m_Data: -1376
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1896,7 +1898,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Scripts/Article 7/Result
+    - Assets/_Scripts/Article 6/Result
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1906,23 +1908,32 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Scripts/Article 7/Result
+  - Assets/_Scripts/Article 6/Result
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\_UnityProjects\2026\Tips-for-writing-cleaner-code-in-Unity\Project
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 414.00006}
     m_SelectedIDs:
-    - m_Data: 91562
+    - m_Data: 52154
     m_LastClickedID:
-      m_Data: 91562
+      m_Data: 52154
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 91544
-    - m_Data: 91550
-    - m_Data: 91564
+    - m_Data: 51944
+    - m_Data: 52100
+    - m_Data: 52134
+    - m_Data: 52136
+    - m_Data: 52140
+    - m_Data: 52142
+    - m_Data: 52144
+    - m_Data: 52146
+    - m_Data: 52154
+    - m_Data: 52158
+    - m_Data: 52236
+    - m_Data: 52240
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1954,7 +1965,9 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs: []
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 51944
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1982,14 +1995,14 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 91244
-    m_LastClickedInstanceID: 91244
+    - m_Data: 48692
+    m_LastClickedInstanceID: 48692
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: _Article 7 Result Project
-      m_OriginalName: _Article 7 Result Project
+      m_Name: IDamagable
+      m_OriginalName: IDamagable
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -1997,7 +2010,7 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 91244
+        m_Data: 44996
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0

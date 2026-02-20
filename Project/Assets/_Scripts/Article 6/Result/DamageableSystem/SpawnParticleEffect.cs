@@ -5,7 +5,7 @@ namespace Tips.Part_6_End
     /// <summary>
     /// Spawns Wood Chip particles when the Player hits the Tree object
     /// </summary>
-    public class SpawnParticleEffect : MonoBehaviour, IDamagable
+    public class SpawnParticleEffect : MonoBehaviour, IDamageable
     {
         [SerializeField]
         private ParticleSystem m_particlesPrefab;

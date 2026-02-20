@@ -1,12 +1,12 @@
 using UnityEngine;
 
-namespace Tips.Part_6_Start
+namespace Tips.Part_6_End
 {
     /// <summary>
     /// This script is here to trigger the PlayerTakeDamageEffect 
     /// when the player gets hit.
     /// </summary>
-    public class PlayerGetHitEffect : MonoBehaviour, IDamagable
+    public class PlayerGetHitEffect : MonoBehaviour, IDamageable
     {
         [SerializeField]
         PlayerTakeDamageEffect m_takeDamageEffect;

@@ -6,7 +6,7 @@ namespace Tips.Part_6_Start
     /// <summary>
     /// Shakes the Tree objects by moving its transform position
     /// </summary>
-    public class ShakeTransformEffect : MonoBehaviour, IDamagable
+    public class ShakeTransformEffect : MonoBehaviour, IDamageable
     {
         [SerializeField] private AnimationCurve shakeCurve;
         [SerializeField] private float shakeDuration = .5f;

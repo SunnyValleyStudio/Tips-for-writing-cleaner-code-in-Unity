@@ -12,15 +12,15 @@ namespace Tips.Part_6_Start
         [SerializeField]
         private SphereDetector m_sphereDetector;
 
-        public Dictionary<Collider, List<IDamagable>> PerformDetection()
+        public Dictionary<Collider, List<IDamageable>> PerformDetection()
         {
-            Dictionary<Collider, List<IDamagable>> hitObjects = new Dictionary<Collider, List<IDamagable>>();
+            Dictionary<Collider, List<IDamageable>> hitObjects = new Dictionary<Collider, List<IDamageable>>();
             Collider[] result = m_sphereDetector.DetectObjects();
             if (result.Length > 0)
             {
                 foreach (var collider in result)
                 {
-                    List<IDamagable> damagables = new(collider.GetComponents<IDamagable>());
+                    List<IDamageable> damagables = new(collider.GetComponents<IDamageable>());
                     if (damagables.Count > 0)
                         hitObjects.Add(collider, damagables);
                 }

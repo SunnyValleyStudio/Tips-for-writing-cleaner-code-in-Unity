@@ -9,7 +9,7 @@ namespace Tips.Part_6_Start
     /// OnHit event is invoked when the object takes damage to trigger
     /// state transition to GetHitState or DeathState.
     /// </summary>
-    public class Health : MonoBehaviour, IDamagable
+    public class Health : MonoBehaviour, IDamageable
     {
         [field: SerializeField]
         public int CurrentHealth { get; private set; }
