@@ -82,6 +82,29 @@ In the final article of the series, we explore the interface keyword which allow
 - **Implementing different Damagable objects**: Player, EnemyNPC, and Tree all implement the IDamagable interface, producing different results and feedback when hit.
 - **Refactoring State pattern**: To complete the project, we refactor the StateFactory() method into a separate inheritance hierarchy. This separates the responsibility of state creation from the Agent and its subclasses.
 
+___
+
+### Article 6: Extending Interactions — Doors, Destruction, and Locked Access Rules
+
+In this article, we build on the foundation from Articles 1–5 by adding progressively more complex door interactions, while keeping the codebase clean and extensible. Key topics covered:
+
+- **SRP in practice**: Separating responsibilities between `DoorInteractable` (interaction trigger) and `DoorController` (door state + animation).
+- **Reusing existing systems**: Applying the `IDamagable` + `Health` setup from Article 5 to make doors (and a box) destructible.
+- **DRY (Don't Repeat Yourself)**: Identifying duplicated "health <= 0" checks across multiple feedback scripts.
+- **Adapter Pattern (inspired solution)**: Introducing `HealthDeathObserver` to translate `Health.OnHit` into a higher-level `OnDied` event, allowing feedback scripts to subscribe without duplicating death-condition logic.
+- **Composition + Open–Closed Principle (OCP)**: Adding `IAccessRule` (e.g., `UnlockedRule`, `LockedRule`) so doors can gain new access requirements without rewriting the door interaction code.
+
+___
+
+### Article 7: Building a Clean Vehicle Controller with Composition
+
+In this article, we apply the same principles to a completely different mechanic: a modular vehicle controller built with Unity's `WheelCollider`. Key topics covered:
+
+- **Composition-first controller design**: `CarController` coordinates small modules instead of becoming a monolithic script.
+- **Input via abstraction (DIP)**: Reading controls through `IVehicleInput` (implemented by `PlayerVehicleInput`) to keep input swappable.
+- **Plain C# movement module**: Implementing driving behavior in `CarEngine` (non-MonoBehaviour) for reuse and easier testing.
+- **Data-driven tuning**: Storing vehicle parameters in a `CarStats` `ScriptableObject` to avoid hard-coded values and support multiple vehicles.
+- **Modular feedback systems**: Adding presentation-only components like `BrakeLights`, `SimpleEngineAudio`, and `SimpleSkidAudio` that receive minimal data from the controller.
 
 ## Assets Used:
 - [3D Game Kit by Unity](https://assetstore.unity.com/packages/templates/tutorials/unity-learn-3d-game-kit-115747),
